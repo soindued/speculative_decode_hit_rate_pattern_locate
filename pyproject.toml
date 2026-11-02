@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "soindued-lorapeft_jd058"
+name = "soindued-speculative_decode_hit_rate_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告LoRA 与参数高效微调研究员·投机解码的命中率相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://soindued.github.io"
-Repository = "https://github.com/soindued/lorapeft_jd058"
-Issues = "https://github.com/soindued/lorapeft_jd058/issues"
+Repository = "https://github.com/soindued/speculative_decode_hit_rate_pattern_locate"
+Issues = "https://github.com/soindued/speculative_decode_hit_rate_pattern_locate/issues"
 
 [project.scripts]
-lorapeft_jd058 = "lorapeft_jd058:main"
+speculative_decode_hit_rate_pattern_locate = "speculative_decode_hit_rate_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["lorapeft_jd058"]
+py-modules = ["speculative_decode_hit_rate_pattern_locate"]
